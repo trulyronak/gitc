@@ -12,5 +12,5 @@ commitCmd = 'git commit -m "' + commitMsg +'"'
 os.system('git add -A')
 os.system(commitCmd)
 os.system('echo ')
-os.sytem('echo ')
+os.system('echo ')
 os.system('git status')
