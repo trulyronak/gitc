@@ -1,0 +1,5 @@
+setup.py
+gitc.egg-info/PKG-INFO
+gitc.egg-info/SOURCES.txt
+gitc.egg-info/dependency_links.txt
+gitc.egg-info/top_level.txt
