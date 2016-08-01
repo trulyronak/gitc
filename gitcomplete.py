@@ -3,10 +3,11 @@
 import os
 import sys
 
+DEFAULT_COMMIT_MSG = "quick commit"
 args = sys.argv
-commitMsg = "quick commit"
+commitMsg = DEFAULT_COMMIT_MSG
 if len(sys.argv) == 1:
-    print "Pushing, Commit Message is 'quick commit'"
+    print "Pushing, Commit Message is " + DEFAULT_COMMIT_MSG
 else:
     del args[0]
     commitMsg = ' '.join(args)
