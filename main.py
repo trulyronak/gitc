@@ -17,5 +17,7 @@ os.system(commitCmd)
 print ''
 
 os.system('git status')
+os.system('git push')
 print ''
 print 'Thank you for using GitC'
+
