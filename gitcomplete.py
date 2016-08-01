@@ -8,6 +8,7 @@ if len(sys.argv) == 1:
 else:
     del args[0]
     commitMsg = ' '.join(args)
-commitMsg = 'git commit -m "' + commitMsg +'"'
+commitCmd = 'git commit -m "' + commitMsg +'"'
 os.system('git add -A')
-os.system(commitMsg)
+os.system(commitCmd)
+os.system('git status')
