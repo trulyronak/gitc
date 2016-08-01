@@ -5,4 +5,7 @@
 ##Then GitC is for you!!
 
 ##Installation
-* <TODO> Figure out how to install gitc
+* Install the python script however you want to, or install it via the sh file (gitc)
+* Required Libs: os, sys
+* Required Files: gitc.py
+
