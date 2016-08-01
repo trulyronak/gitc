@@ -11,8 +11,8 @@ else:
 commitCmd = 'git commit -m "' + commitMsg +'"'
 os.system('git add -A')
 os.system(commitCmd)
-os.system('echo ')
-os.system('echo ')
+print ''
+
 os.system('git status')
-os.system('echo ')
-os.system('echo ')
+print ''
+print 'Thank you for using GitC'
