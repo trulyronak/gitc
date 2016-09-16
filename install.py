@@ -1,6 +1,5 @@
 import os
 
-os.system('rm run')
-os.system('g++ main.cpp -o run')
+os.system('g++ main.cpp -o gitc')
 os.system('ls')
 os.system('echo ')
