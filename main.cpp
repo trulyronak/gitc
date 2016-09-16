@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
   std::system(str.c_str());
   std::system("git status");
 
-  std::cout<< "Commit Message: " << str << std::endl;
+  std::cout<< std::endl << std::endl << "Commit Message: " << str << std::endl;
 
   return 0;
 }
