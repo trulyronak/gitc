@@ -5,11 +5,8 @@
 ##Then GitC is for you!!
 
 ##Installation
-* Install the c++ script however you want -> (install.py simply gives the executable)
-* Edit the c++ directly to change the default commit message and/or enable pushing to git on each run
-
-##Future
-I'd really like to:
-* Make it so you can change the default commit msg just by sending in args (ie ```gitc -config msg=New Default Msg```
-* Add more collaborators
-
+```
+git clone https://github.com/ronakdev/gitc
+cd gitc
+sudo python install.py
+```
