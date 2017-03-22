@@ -1,0 +1,7 @@
+package: gitc
+Version: 1.0
+Section: web
+Priority: optional
+Architecture: all
+Maintainer: Ronak Shah
+Description: Quickly Add, Commit, and Push Changes to Your Git Repo 

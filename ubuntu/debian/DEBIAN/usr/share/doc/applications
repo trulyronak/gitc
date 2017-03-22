@@ -1,0 +1,5 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GitC
+Comment=Git Complete
+Exec=/usr/bin/gitc.sh
