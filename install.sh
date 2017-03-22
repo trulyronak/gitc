@@ -1,4 +1,13 @@
 chmod +x gitc.sh
-mv gitc.sh ~/.gitc
-echo "alias gitc='./.gitc/gitc.sh'" >> ~/.bashrc
-echo "alias gitc='./.gitc/gitc.sh'" >> ~/.bash_profile #for mac
+rm -rf ~/.gitc
+mkdir ~/.gitc
+cp gitc.sh ~/.gitc/main.sh
+echo "Adding Aliases"
+echo "alias gitc='sh ~/.gitc/main.sh'" >> ~/.bashrc #works for most people
+echo "alias gitc='sh ~/.gitc/main.sh'" >> ~/.bash_profile #for mac
+echo "alias gitc='sh ~/.gitc/main.sh'" >> ~/.zshrc #for people using oh-my-zsh
+
+echo "Sourcing Aliases"
+source ~/.bashrc
+source ~/.bash_profile
+source ~/.zshrc
