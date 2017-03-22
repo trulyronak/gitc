@@ -5,8 +5,7 @@
 ##Then GitC is for you!!
 
 ##Installation
+
 ```
-git clone https://github.com/ronakdev/gitc
-cd gitc
-sudo python install.py
+sudo sh install.sh
 ```
