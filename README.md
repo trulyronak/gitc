@@ -6,8 +6,9 @@
 
 ## Installation
 
-```
-sudo sh install.sh
+git clone https://github.com/ronakdev/gitc
+cd gitc
+sudo bash install.sh
 ```
 
 ## Released Versions
