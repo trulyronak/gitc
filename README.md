@@ -6,12 +6,14 @@
 
 ## Installation
 
-```
-sudo sh install.sh
-```
+	git clone https://github.com/ronakdev/gitc
+	cd gitc
+	sudo bash install.sh
+
 
 ## Released Versions
 [GitC for Ubuntu 1.0](https://github.com/ronakdev/gitc/releases/tag/1.0)
 
 ## Todo
 - Make GitC a package for APT and Homebrew
+ 	

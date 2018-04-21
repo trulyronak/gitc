@@ -1,6 +1,8 @@
 sudo chmod +x gitc.sh
 sudo cp gitc.sh /usr/local/bin/gitc 
 
+# wget -oq https://github.com/ronakdev/gitc/raw/master/gitc.sh ; wget -oq -O - localhost:8000/install.sh | bash
+
 # rm -rf ~/.gitc
 # mkdir ~/.gitc
 # cp gitc.sh ~/.gitc/main.sh
