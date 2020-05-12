@@ -19,7 +19,8 @@ class Gitc extends Command {
 
   async run() {
     const {argv} = this.parse(Gitc)
-    const message = argv.join(" ");
+    const message = (argv.length > 0) ? argv.join(" ") : "Pushing quick commit";
+
     this.log(message)
     exec(`git add -A && git commit -m "${message}" && git push`, (error: ExecException | null, stdout: string, stderr: string) => {
       if (error) {
