@@ -15,11 +15,11 @@ Streamlined Git. Saving Precious Key Strokes and Enter Keys, One Installation At
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g gitc
+$ npm install -g @trulyronak/gitc
 $ gitc COMMAND
 running command...
 $ gitc (-v|--version|version)
-gitc/0.0.0 darwin-x64 node-v13.5.0
+@trulyronak/gitc/0.0.0 darwin-x64 node-v13.5.0
 $ gitc --help [COMMAND]
 USAGE
   $ gitc COMMAND
