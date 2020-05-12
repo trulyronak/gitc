@@ -1,19 +1,32 @@
-# GitC
-* Are you lazy af?
-* do you find yourself annoyed at typing ```git add -A``` and ```git commit -m "Stupid Commit"``` a ton?
+gitc
+====
 
-## Then GitC is for you!!
+Streamlined Git. Saving Precious Key Strokes and Enter Keys, One Installation At A Time
 
-## Installation
+[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
+[![Version](https://img.shields.io/npm/v/gitc.svg)](https://npmjs.org/package/gitc)
+[![Downloads/week](https://img.shields.io/npm/dw/gitc.svg)](https://npmjs.org/package/gitc)
+[![License](https://img.shields.io/npm/l/gitc.svg)](https://github.com/trulyronak/gitc/blob/master/package.json)
 
-	git clone https://github.com/ronakdev/gitc
-	cd gitc
-	sudo bash install.sh
+<!-- toc -->
+* [Usage](#usage)
+* [Commands](#commands)
+<!-- tocstop -->
+# Usage
+<!-- usage -->
+```sh-session
+$ npm install -g gitc
+$ gitc COMMAND
+running command...
+$ gitc (-v|--version|version)
+gitc/0.0.0 darwin-x64 node-v13.5.0
+$ gitc --help [COMMAND]
+USAGE
+  $ gitc COMMAND
+...
+```
+<!-- usagestop -->
+# Commands
+<!-- commands -->
 
-
-## Released Versions
-[GitC for Ubuntu 1.0](https://github.com/ronakdev/gitc/releases/tag/1.0)
-
-## Todo
-- Make GitC a package for APT and Homebrew
- 	
+<!-- commandsstop -->

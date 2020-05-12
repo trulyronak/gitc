@@ -1,0 +1,50 @@
+{
+  "name": "gitc",
+  "description": "Streamlined Git. Saving Precious Key Strokes and Enter Keys, One Installation At A Time",
+  "version": "0.0.0",
+  "author": "Ronak Shah @trulyronak",
+  "bin": {
+    "gitc": "./bin/run"
+  },
+  "bugs": "https://github.com/trulyronak/gitc/issues",
+  "dependencies": {
+    "@oclif/command": "^1.6.1",
+    "@oclif/config": "^1.15.1",
+    "@oclif/plugin-help": "^3.0.0",
+    "child_process": "^1.0.2",
+    "tslib": "^1.12.0"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2",
+    "@types/node": "^10.17.21",
+    "eslint": "^5.16.0",
+    "eslint-config-oclif": "^3.1.0",
+    "eslint-config-oclif-typescript": "^0.1.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/trulyronak/gitc",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "oclif": {
+    "bin": "gitc"
+  },
+  "repository": "trulyronak/gitc",
+  "scripts": {
+    "posttest": "eslint . --ext .ts --config .eslintrc",
+    "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  },
+  "types": "lib/index.d.ts"
+}
